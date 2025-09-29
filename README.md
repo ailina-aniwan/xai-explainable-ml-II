@@ -8,7 +8,7 @@ This repository contains my assignment submission for the Explainable AI course.
 The notebook uses the *California Housing dataset*, which is based on 1990 census data and is included in scikit-learn. The prediction task is to estimate the median house value (in units of $100,000) from features such as median income, average occupancy, average rooms, latitude, longitude, and several others. This dataset is widely used as a benchmark for regression tasks.
 
 ## Model
-An *XGBoost Regressor* was trained on the California Housing dataset, with a train/test split handled using scikit-learn. This model serves as the basis for applying and demonstrating the global explanation techniques.
+An *XGBoost Regressor* was trained on the California Housing dataset, with a train/test split handled using scikit-learn. This model uses as the base model for applying and demonstrating the global explanation techniques.
 
 ## Methods
 The notebook compares three global explanation techniques:  
